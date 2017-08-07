@@ -11,7 +11,8 @@ def get_role_by_hostname(hostname):
 
 for h in hostnames:
     info = get_role_by_hostname(h)
-    print 'hostname: %s' % h
-    print 'location: %s' % info['location']
-    print 'role: %s' % info['role']
-    print 'model: %s' % info['model']
+    print('hostname:', h)
+    print('location:', info['location'])
+    print('role:', info['role'])
+    print('model:', info['model'])
+    print('model:', info['model'])
