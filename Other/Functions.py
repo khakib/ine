@@ -1,3 +1,4 @@
+#!/usr/bin/python
 hostnames = ('iad1-br-tra-r1', 'iad1-br-tra-r2',
              'ams1-br-tra-r3', 'ams3-br-tra-r4',
              'sfo5-br-entra-r1', 'sfo5-br-tra-r5')
@@ -8,7 +9,7 @@ def get_role_by_hostname(hostname):
     info['role'] = hostname.split('-')[1]
     info['model'] = hostname.split('-')[2]
     return info
-
+eifjc
 for h in hostnames:
     info = get_role_by_hostname(h)
     print 'hostname: %s' % h
