@@ -9,7 +9,7 @@ elif x == 1:
     print 'Single'
 else:
     print 'More'
-'''
+
 
 friends = ('Joey','Chandler','Ross','Monica','Rachel')
 for f in friends:
@@ -20,6 +20,16 @@ for f in friends:
     else:
         print '{} made my life better!!'.format(f)
 
+for i in range(4):
+    print ('Hello World')
+
+x = int(1)
+while x < 5:
+    x += 1
+    print ('Try again!')
+for i in range(4): print ('Hello World')
+
+'''
 
 
 
