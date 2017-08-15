@@ -1,3 +1,4 @@
+import time
 '''
 
 
@@ -20,9 +21,16 @@ f.seek(0)
 line = f.readline()
 print "Read Line: %s" % (line)
 
+
+
+with open('Test.txt', 'r') as selected_user_file:
+    selected_user_file.seek(0)  #Begin from the begining - thats what seek(0) means
+    username = selected_user_file.readlines()[0].split(',')[0]
+    selected_user_file.seek(0)
+    password = selected_user_file.readlines()[0].split(',')[1].rstrip("\n")
+print('Welcome', username, 'Today is', time.strftime("%d/%m/%Y"))
+print('Your password is', password)
+selected_user_file.close()
+
+
 '''
-
-
-
-
-
