@@ -1,0 +1,34 @@
+Sep 10 10:17:15.731 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Sep 10 10:17:15.731 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50795.
+Sep 10 10:17:15.756 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 10 10:17:15.757 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips 
+Sep 10 10:17:15.757 GENERAL: working_dir=/Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips
+Sep 10 10:17:15.758 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips/b05890f1-c3d1-474e-a789-07818a15af93 
+Sep 10 10:17:15.758 GENERAL: working_dir=/Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips/b05890f1-c3d1-474e-a789-07818a15af93
+Sep 10 10:17:15.760 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Sep 10 10:17:15.760 VM: VM R4 created.
+Sep 10 10:17:15.761 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5007 
+Sep 10 10:17:15.762 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Sep 10 10:17:15.764 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 10 10:17:15.765 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Sep 10 10:17:15.766 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Sep 10 10:17:15.767 HYPERVISOR: exec_cmd: vm set_ios R4 /Users/khakib/GNS3/images/IOS/c7200-jk9s-mz.124-13b.image 
+Sep 10 10:17:15.769 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Sep 10 10:17:15.770 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 10 10:17:15.771 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Sep 10 10:17:15.772 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca04.e4d1.0000 
+Sep 10 10:17:15.773 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5007 
+Sep 10 10:17:15.775 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Sep 10 10:17:15.778 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Sep 10 10:17:16.378 HYPERVISOR: exec_cmd: nio create_udp udp-c679d328-85f9-4e51-903b-664e6fb2cba1 10013 127.0.0.1 10012 
+Sep 10 10:17:16.379 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-c679d328-85f9-4e51-903b-664e6fb2cba1 
+Sep 10 10:17:16.380 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 10 10:18:08.477 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 10 10:18:08.480 HYPERVISOR: exec_cmd: vm extract_config R4 
+Sep 10 10:18:08.507 HYPERVISOR: exec_cmd: vm get_status R4 
+Sep 10 10:18:08.513 HYPERVISOR: exec_cmd: vm extract_config R4 
+Sep 10 10:18:08.517 HYPERVISOR: exec_cmd: vm delete R4 
+Sep 10 10:18:08.518 VM: VM R4 destroyed.
+Sep 10 10:18:08.522 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 10 10:18:08.535 HYPERVISOR: Stopped.
+Sep 10 10:18:08.535 GENERAL: reset done.
