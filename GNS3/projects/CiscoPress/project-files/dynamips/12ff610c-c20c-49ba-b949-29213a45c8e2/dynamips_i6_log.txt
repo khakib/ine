@@ -1,0 +1,69 @@
+Sep 10 11:06:43.299 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Sep 10 11:06:43.299 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52190.
+Sep 10 11:06:43.320 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 10 11:06:43.322 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips 
+Sep 10 11:06:43.322 GENERAL: working_dir=/Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips
+Sep 10 11:06:43.323 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips/333985cc-dd1f-42ec-bf4d-d82e1b60f872 
+Sep 10 11:06:43.323 GENERAL: working_dir=/Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips/333985cc-dd1f-42ec-bf4d-d82e1b60f872
+Sep 10 11:06:43.325 HYPERVISOR: exec_cmd: vm create R10 7 c7200 
+Sep 10 11:06:43.325 VM: VM R10 created.
+Sep 10 11:06:43.326 HYPERVISOR: exec_cmd: vm set_con_tcp_port R10 5010 
+Sep 10 11:06:43.327 HYPERVISOR: exec_cmd: c7200 get_mac_addr R10 
+Sep 10 11:06:43.327 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:43.328 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-FE 
+Sep 10 11:06:43.329 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:43.330 HYPERVISOR: exec_cmd: vm slot_remove_binding R10 0 0 
+Sep 10 11:06:43.331 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:43.331 HYPERVISOR: exec_cmd: vm slot_add_binding R10 0 0 C7200-IO-2FE 
+Sep 10 11:06:43.332 HYPERVISOR: exec_cmd: vm set_nvram R10 512 
+Sep 10 11:06:43.333 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:43.334 HYPERVISOR: exec_cmd: vm slot_add_binding R10 1 0 PA-2FE-TX 
+Sep 10 11:06:43.335 HYPERVISOR: exec_cmd: vm set_ios R10 /Users/khakib/GNS3/images/IOS/c7200-jk9s-mz.124-13b.image 
+Sep 10 11:06:43.336 HYPERVISOR: exec_cmd: c7200 set_mac_addr R10 ca07.0690.0000 
+Sep 10 11:06:43.338 HYPERVISOR: exec_cmd: vm set_disk0 R10 0 
+Sep 10 11:06:43.339 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:43.340 HYPERVISOR: exec_cmd: vm set_idle_pc R10 0x60741b98 
+Sep 10 11:06:43.340 HYPERVISOR: exec_cmd: vm set_ram R10 512 
+Sep 10 11:06:43.343 HYPERVISOR: exec_cmd: vm set_config R10 configs/i7_startup-config.cfg 
+Sep 10 11:06:44.081 HYPERVISOR: exec_cmd: nio create_udp udp-a71629b5-5d99-44be-be70-bdc17278439f 10007 127.0.0.1 10006 
+Sep 10 11:06:44.082 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 0 1 udp-a71629b5-5d99-44be-be70-bdc17278439f 
+Sep 10 11:06:44.083 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:44.351 HYPERVISOR: exec_cmd: nio create_udp udp-413c2039-e6d0-470d-b5e8-fbbabbc60dad 10011 127.0.0.1 10010 
+Sep 10 11:06:44.352 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 1 1 udp-413c2039-e6d0-470d-b5e8-fbbabbc60dad 
+Sep 10 11:06:44.352 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:44.754 HYPERVISOR: exec_cmd: nio create_udp udp-2b817089-b2a2-42fc-b6c6-94f7a059611c 10017 127.0.0.1 10016 
+Sep 10 11:06:44.755 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R10 0 0 udp-2b817089-b2a2-42fc-b6c6-94f7a059611c 
+Sep 10 11:06:44.756 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:51.129 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+Sep 10 11:06:51.134 HYPERVISOR: exec_cmd: vm set_ghost_file R10 /Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips/c7200-jk9s-mz.124-13b.image-512.ghost 
+Sep 10 11:06:51.135 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:06:51.136 HYPERVISOR: exec_cmd: vm start R10 
+Sep 10 11:07:21.410 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 10 11:07:39.118 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 11:07:39.120 HYPERVISOR: exec_cmd: vm stop R10 
+Sep 10 11:07:40.513 VM: VM R10 shutdown.
+Sep 10 11:07:40.520 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 10 12:12:45.204 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 12:12:45.210 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 10 17:48:55.449 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 17:48:55.461 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 10 17:48:55.476 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 10 17:48:55.482 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 11 18:49:11.391 HYPERVISOR: exec_cmd: vm set_ghost_status R10 2 
+Sep 11 18:49:11.393 HYPERVISOR: exec_cmd: vm set_ghost_file R10 /Users/khakib/GNS3/projects/CiscoPress/project-files/dynamips/c7200-jk9s-mz.124-13b.image-512.ghost 
+Sep 11 18:49:11.395 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 11 18:49:11.397 HYPERVISOR: exec_cmd: vm start R10 
+Sep 11 18:49:41.627 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 11 18:54:46.486 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 11 18:54:46.489 HYPERVISOR: exec_cmd: vm stop R10 
+Sep 11 18:54:48.162 VM: VM R10 shutdown.
+Sep 11 18:54:48.164 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 11 18:55:07.023 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 11 18:55:07.027 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 11 18:55:07.118 HYPERVISOR: exec_cmd: vm get_status R10 
+Sep 11 18:55:07.124 HYPERVISOR: exec_cmd: vm extract_config R10 
+Sep 11 18:55:07.133 HYPERVISOR: exec_cmd: vm delete R10 
+Sep 11 18:55:07.133 VM: VM R10 destroyed.
+Sep 11 18:55:07.146 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 11 18:55:07.392 HYPERVISOR: Stopped.
+Sep 11 18:55:07.392 GENERAL: reset done.

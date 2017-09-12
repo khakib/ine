@@ -1,0 +1,1022 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "name": "CiscoPress",
+    "project_id": "796a77f7-c646-4944-961a-177b6f0a401c",
+    "revision": 7,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "dcb5246f-31f3-43d3-8ab4-236fd8ff8b50",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"44\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">AS 200</text></svg>",
+                "x": 279,
+                "y": -197,
+                "z": 0
+            },
+            {
+                "drawing_id": "42c72947-37cd-46a4-a199-d96b28a7a892",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"60\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10\" font-weight=\"bold\" font-style=\"normal\">AS 400</text></svg>",
+                "x": 454,
+                "y": 127,
+                "z": 0
+            },
+            {
+                "drawing_id": "aa73ae5f-ed88-46e2-8de0-1845b01987bb",
+                "rotation": 0,
+                "svg": "<svg height=\"44\" width=\"104\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo1: 172.18.1.1/24\nLo0: 172.18.2.1/24\n</text></svg>",
+                "x": 447,
+                "y": -194,
+                "z": 0
+            },
+            {
+                "drawing_id": "dfb80f62-033c-45df-be29-57776e26f718",
+                "rotation": 0,
+                "svg": "<svg height=\"44\" width=\"375\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">MED policy:\nIncoming packets to AS 200 from 192.168.1.0/24 should prefer R7-R2 \nincoming packets to AS 200 from 192.168.2.0/24 should prefer R5-R1</text></svg>",
+                "x": -359,
+                "y": 245,
+                "z": 1
+            },
+            {
+                "drawing_id": "ac30ed0a-3826-47b8-ae94-473c8760df60",
+                "rotation": 0,
+                "svg": "<svg height=\"44\" width=\"104\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo1: 172.17.1.1/24\nLo0: 172.17.2.1/24\n</text></svg>",
+                "x": -7,
+                "y": -212,
+                "z": 0
+            },
+            {
+                "drawing_id": "7cd9a2e4-ddd7-40e0-b442-214f68afac33",
+                "rotation": 0,
+                "svg": "<svg height=\"44\" width=\"111\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo1: 192.168.1.0/24\nLo0: 192.168.2.0/24\n</text></svg>",
+                "x": -274,
+                "y": 96,
+                "z": 0
+            },
+            {
+                "drawing_id": "e56ac4af-7aed-43c5-923d-690ad81d8fd8",
+                "rotation": 0,
+                "svg": "<svg height=\"100\" width=\"236\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"100\" stroke=\"#000000\" stroke-width=\"2\" width=\"236\" /></svg>",
+                "x": 440,
+                "y": -73,
+                "z": -1
+            },
+            {
+                "drawing_id": "71d84324-2702-4a7d-ae36-abd7dbb6043f",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"140\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10\" font-weight=\"bold\" font-style=\"normal\">AS 300 (65500)</text></svg>",
+                "x": 456,
+                "y": -241,
+                "z": 0
+            },
+            {
+                "drawing_id": "9c58f50b-b3f1-465b-b534-6203ef9fe6c8",
+                "rotation": 0,
+                "svg": "<svg height=\"56\" width=\"104\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo0: 172.19.1.1/24\nLo1: 172.19.2.1/24\nLo2: 172.19.3.1/24\nLo3: 172.19.4.1/24</text></svg>",
+                "x": 445,
+                "y": -33,
+                "z": 0
+            },
+            {
+                "drawing_id": "0f4768b2-6985-4bc1-931d-e59657bbe1e2",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"44\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">AS 100</text></svg>",
+                "x": -252,
+                "y": -201,
+                "z": 1
+            },
+            {
+                "drawing_id": "5d0aca2c-4ad2-486a-be06-df03a3f45fcb",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"44\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">AS 500</text></svg>",
+                "x": 450,
+                "y": -68,
+                "z": 0
+            },
+            {
+                "drawing_id": "babaaf46-0a14-4947-96dc-36d94c4ae349",
+                "rotation": 0,
+                "svg": "<svg height=\"100\" width=\"236\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"100\" stroke=\"#000000\" stroke-width=\"2\" width=\"236\" /></svg>",
+                "x": 441,
+                "y": 117,
+                "z": -1
+            },
+            {
+                "drawing_id": "2264b54b-4d6a-4d33-bb62-7313ad072dd4",
+                "rotation": 0,
+                "svg": "<svg height=\"354\" width=\"200\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"354\" stroke=\"#000000\" stroke-width=\"2\" width=\"200\" /></svg>",
+                "x": -310,
+                "y": -214,
+                "z": -2
+            },
+            {
+                "drawing_id": "a9aab5f8-0659-49c6-b789-834f3f5a31ab",
+                "rotation": 0,
+                "svg": "<svg height=\"100\" width=\"236\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"100\" stroke=\"#000000\" stroke-width=\"2\" width=\"236\" /></svg>",
+                "x": 440,
+                "y": -246,
+                "z": -1
+            },
+            {
+                "drawing_id": "51359011-47f0-45be-9044-1656b92a0261",
+                "rotation": 0,
+                "svg": "<svg height=\"44\" width=\"104\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Lo0: 172.26.1.1/24\nLo1: 172.26.2.1/24\nLo2: 172.26.3.1/24</text></svg>",
+                "x": 445,
+                "y": 160,
+                "z": 0
+            },
+            {
+                "drawing_id": "5a16ed95-dfef-4b5b-811a-78e2ab1f3036",
+                "rotation": 0,
+                "svg": "<svg height=\"362\" width=\"410\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"362\" stroke=\"#000000\" stroke-width=\"2\" width=\"410\" /></svg>",
+                "x": -33,
+                "y": -223,
+                "z": -2
+            }
+        ],
+        "links": [
+            {
+                "link_id": "93c0f598-ef45-4111-b689-63971414e94b",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 33,
+                            "y": 61
+                        },
+                        "node_id": "f40d8774-cc37-4d89-a6a1-71fdc47e6911",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 32,
+                            "y": -17
+                        },
+                        "node_id": "333985cc-dd1f-42ec-bf4d-d82e1b60f872",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "1e65b99b-4001-427c-b6b6-c0595b213ef4",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -4,
+                            "y": 46
+                        },
+                        "node_id": "84be2969-f27d-40ed-b450-9fef8f9bcbbb",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 36,
+                            "y": -18
+                        },
+                        "node_id": "b05890f1-c3d1-474e-a789-07818a15af93",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "aea80835-b638-4091-8683-4c8ce5851ece",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 32,
+                            "y": -17
+                        },
+                        "node_id": "84be2969-f27d-40ed-b450-9fef8f9bcbbb",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 33,
+                            "y": 61
+                        },
+                        "node_id": "be873607-13d5-4eda-b651-2451b833f563",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "d4988c06-3be5-4f05-9365-7980ad440c42",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": 72,
+                            "y": 26
+                        },
+                        "node_id": "84be2969-f27d-40ed-b450-9fef8f9bcbbb",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": -27,
+                            "y": 29
+                        },
+                        "node_id": "ed56f00e-0479-4318-b902-4cc4fae4cebf",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "9e30a4a7-594c-4156-9506-b4097592cae5",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 71,
+                            "y": 14
+                        },
+                        "node_id": "ec4d47ae-3f85-48bf-99ed-5d7387ad6613",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -19,
+                            "y": -22
+                        },
+                        "node_id": "b7349888-b46c-467e-930d-5aebf50bc3b7",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "56c0de95-fc2f-4724-99d9-3575bdcb0bae",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": 72,
+                            "y": 22
+                        },
+                        "node_id": "be873607-13d5-4eda-b651-2451b833f563",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": -17,
+                            "y": 36
+                        },
+                        "node_id": "ec4d47ae-3f85-48bf-99ed-5d7387ad6613",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "6f677afb-0dc7-4514-b088-4e8c5f67cf2f",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": 72,
+                            "y": 25
+                        },
+                        "node_id": "b7349888-b46c-467e-930d-5aebf50bc3b7",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/1",
+                            "x": -25,
+                            "y": 27
+                        },
+                        "node_id": "333985cc-dd1f-42ec-bf4d-d82e1b60f872",
+                        "port_number": 1
+                    }
+                ]
+            },
+            {
+                "link_id": "39375c9a-3c7a-4e72-bc3c-3d0f18ec5a34",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 72,
+                            "y": 21
+                        },
+                        "node_id": "ed56f00e-0479-4318-b902-4cc4fae4cebf",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -26,
+                            "y": 27
+                        },
+                        "node_id": "b7349888-b46c-467e-930d-5aebf50bc3b7",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "b3818531-d30e-4a2a-af14-e9ccc67e81cc",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 32,
+                            "y": -17
+                        },
+                        "node_id": "12ff610c-c20c-49ba-b949-29213a45c8e2",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 40,
+                            "y": 47
+                        },
+                        "node_id": "333985cc-dd1f-42ec-bf4d-d82e1b60f872",
+                        "port_number": 0
+                    }
+                ]
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R7",
+                    "x": 24,
+                    "y": 21
+                },
+                "name": "R7",
+                "node_id": "be873607-13d5-4eda-b651-2451b833f563",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 9,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca09.0a37.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i9_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R7\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 7.7.7.7 255.255.255.0\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface FastEthernet1/0\n ip address 10.5.7.2 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n ip address 10.7.2.1 255.255.255.0\n duplex auto\n speed auto\n!\nrouter ospf 1\n log-adjacency-changes\n passive-interface default\n no passive-interface FastEthernet1/0\n network 0.0.0.0 255.255.255.255 area 0\n!\nrouter bgp 100\n no synchronization\n bgp log-neighbor-changes\n network 7.7.7.7 mask 255.255.255.255\n redistribute ospf 1\n neighbor 10.7.2.2 remote-as 200\n neighbor 10.7.2.2 route-map MED out\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\nip prefix-list MED1 seq 5 permit 192.168.1.0/24\n!\nip prefix-list MED2 seq 5 permit 192.168.2.0/24\nno cdp log mismatch duplex\n!\nroute-map MED permit 10\n match ip address prefix-list MED1\n set metric 10\n!\nroute-map MED permit 20\n match ip address prefix-list MED2\n set metric 50\n!\nroute-map MED permit 30\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -267,
+                "y": -161,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5008,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 23,
+                    "y": 20
+                },
+                "name": "R1",
+                "node_id": "ed56f00e-0479-4318-b902-4cc4fae4cebf",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca01.4e09.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i1_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R1\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface FastEthernet0/0\n ip address 10.12.2.1 255.255.255.0\n duplex half\n!\ninterface FastEthernet1/0\n ip address 10.1.3.1 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n ip address 10.1.1.1 255.255.255.0\n duplex auto\n speed auto\n!\nrouter bgp 200\n no synchronization\n bgp log-neighbor-changes\n neighbor 10.1.1.2 remote-as 100\n neighbor 10.1.3.2 remote-as 200\n neighbor 10.1.3.2 next-hop-self\n neighbor 10.12.2.2 remote-as 200\n neighbor 10.12.2.2 next-hop-self\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -16,
+                "y": -51,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5009,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R3",
+                    "x": 20,
+                    "y": 19
+                },
+                "name": "R3",
+                "node_id": "b7349888-b46c-467e-930d-5aebf50bc3b7",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 3,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca03.4e0c.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-FE-TX",
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i3_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R3\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface FastEthernet1/0\n ip address 10.1.3.2 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n ip address 10.3.1.1 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet2/0\n no ip address\n shutdown\n duplex half\n!\nrouter bgp 200\n no synchronization\n bgp log-neighbor-changes\n neighbor 10.1.3.1 remote-as 200\n neighbor 10.1.3.1 next-hop-self\n neighbor 10.3.1.2 remote-as 500\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 268,
+                "y": -53,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5012,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R5",
+                    "x": 25,
+                    "y": 13
+                },
+                "name": "R5",
+                "node_id": "84be2969-f27d-40ed-b450-9fef8f9bcbbb",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 5,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca05.e36a.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i5_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R5\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 5.5.5.5 255.255.255.0\n!\ninterface FastEthernet0/0\n ip address 10.45.1.1 255.255.255.0\n duplex half\n!\ninterface FastEthernet1/0\n ip address 10.5.7.1 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n ip address 10.1.1.2 255.255.255.0\n duplex auto\n speed auto\n!\nrouter ospf 1\n log-adjacency-changes\n passive-interface default\n no passive-interface FastEthernet0/0\n no passive-interface FastEthernet1/0\n network 5.5.5.0 0.0.0.255 area 0\n network 10.5.7.0 0.0.0.255 area 0\n network 10.45.1.0 0.0.0.255 area 0\n!\nrouter bgp 100\n no synchronization\n bgp log-neighbor-changes\n network 5.5.5.5 mask 255.255.255.255\n redistribute ospf 1\n neighbor 10.1.1.1 remote-as 200\n neighbor 10.1.1.1 route-map MED out\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\n!\nip prefix-list MED1 seq 5 permit 192.168.1.0/24\n!\nip prefix-list MED2 seq 5 permit 192.168.2.0/24\nno cdp log mismatch duplex\n!\nroute-map MED permit 10\n match ip address prefix-list MED1\n set metric 50\n!\nroute-map MED permit 20\n match ip address prefix-list MED2\n set metric 10\n!\nroute-map MED permit 30\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -268,
+                "y": -50,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5011,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R6",
+                    "x": 22,
+                    "y": 18
+                },
+                "name": "R6",
+                "node_id": "12ff610c-c20c-49ba-b949-29213a45c8e2",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 6,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60741b98",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca06.04f5.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-4T+",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i6_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R6\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 172.26.1.1 255.255.255.0\n!\ninterface Loopback1\n ip address 172.26.2.1 255.255.255.0\n!\ninterface Loopback2\n ip address 172.26.3.1 255.255.255.0\n!\ninterface FastEthernet0/0\n ip address 10.6.1.1 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet0/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface Serial1/0\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/1\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/2\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/3\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface FastEthernet2/0\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface FastEthernet2/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\nrouter bgp 400\n no synchronization\n bgp log-neighbor-changes\n network 172.26.1.0 mask 255.255.255.0\n network 172.26.2.0 mask 255.255.255.0\n network 172.26.3.0 mask 255.255.255.0\n neighbor 10.6.1.2 remote-as 500\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 590,
+                "y": 154,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5010,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R10",
+                    "x": 17,
+                    "y": 18
+                },
+                "name": "R10",
+                "node_id": "333985cc-dd1f-42ec-bf4d-d82e1b60f872",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 7,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60741b98",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca07.0690.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i7_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R10\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 172.19.1.1 255.255.255.0\n!\ninterface Loopback1\n ip address 172.19.2.1 255.255.255.0\n!\ninterface Loopback2\n ip address 172.19.3.1 255.255.255.0\n!\ninterface Loopback3\n ip address 172.19.4.1 255.255.255.0\n!\ninterface FastEthernet0/0\n ip address 10.6.1.2 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet0/1\n ip address 10.10.1.1 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n ip address 10.3.1.2 255.255.255.0\n duplex auto\n speed auto\n!\nrouter bgp 500\n no synchronization\n bgp log-neighbor-changes\n network 172.19.1.0 mask 255.255.255.0\n network 172.19.2.0 mask 255.255.255.0\n network 172.19.3.0 mask 255.255.255.0\n network 172.19.4.0 mask 255.255.255.0\n neighbor 10.3.1.1 remote-as 200\n neighbor 10.6.1.1 remote-as 400\n neighbor 10.10.1.2 remote-as 300\n no auto-summary\n!\nip route 172.18.1.1 255.255.255.255 10.4.1.1\nip route 172.26.1.1 255.255.255.255 10.6.1.1\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 588,
+                "y": -53,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5006,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 23,
+                    "y": 15
+                },
+                "name": "R2",
+                "node_id": "ec4d47ae-3f85-48bf-99ed-5d7387ad6613",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x0",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca02.4e0a.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i2_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R2\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 172.17.2.1 255.255.255.0\n!\ninterface Loopback1\n ip address 172.17.1.1 255.255.255.0\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex half\n!\ninterface FastEthernet1/0\n ip address 10.12.2.2 255.255.255.0\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n ip address 10.7.2.2 255.255.255.0\n duplex auto\n speed auto\n!\nrouter bgp 200\n no synchronization\n bgp log-neighbor-changes\n network 172.17.1.0 mask 255.255.255.0\n network 172.17.2.0 mask 255.255.255.0\n neighbor 10.7.2.1 remote-as 100\n neighbor 10.12.2.1 remote-as 200\n neighbor 10.12.2.1 next-hop-self\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -17,
+                "y": -160,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5007,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R4",
+                    "x": 22,
+                    "y": 19
+                },
+                "name": "R4",
+                "node_id": "b05890f1-c3d1-474e-a789-07818a15af93",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 4,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca04.e4d1.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i4_startup-config.cfg",
+                    "startup_config_content": "!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R4\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 192.168.2.1 255.255.255.0\n!\ninterface Loopback1\n ip address 192.168.1.1 255.255.255.0\n!\ninterface FastEthernet0/0\n ip address 10.45.1.2 255.255.255.0\n duplex half\n!\ninterface FastEthernet1/0\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface FastEthernet1/1\n no ip address\n shutdown\n duplex auto\n speed auto\n!\nrouter ospf 1\n log-adjacency-changes\n network 10.45.1.0 0.0.0.255 area 0\n network 192.168.0.0 0.0.255.255 area 0\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": -266,
+                "y": 51,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5013,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R12",
+                    "x": 17,
+                    "y": 19
+                },
+                "name": "R12",
+                "node_id": "f40d8774-cc37-4d89-a6a1-71fdc47e6911",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 8,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60741b98",
+                    "idlesleep": 30,
+                    "image": "c7200-jk9s-mz.124-13b.image",
+                    "image_md5sum": "fa32924180f470cab7430f00d1501673",
+                    "mac_addr": "ca08.0692.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "private_config": "",
+                    "private_config_content": "",
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-2FE",
+                    "slot1": "PA-4T+",
+                    "slot2": null,
+                    "slot3": null,
+                    "slot4": null,
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "startup_config": "configs/i8_startup-config.cfg",
+                    "startup_config_content": "!\n!\n!\n\n!\nversion 12.4\nservice timestamps debug datetime msec\nservice timestamps log datetime msec\nno service password-encryption\n!\nhostname R12\n!\nboot-start-marker\nboot-end-marker\n!\n!\nno aaa new-model\nno ip icmp rate-limit unreachable\n!\n!\nip cef\nno ip domain lookup\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip tcp synwait-time 5\n! \n!\n!\n!\n!\ninterface Loopback0\n ip address 172.18.2.1 255.255.255.0\n!\ninterface Loopback1\n ip address 172.18.1.1 255.255.255.0\n!\ninterface FastEthernet0/0\n no ip address\n shutdown\n duplex auto\n speed auto\n!\ninterface FastEthernet0/1\n ip address 10.10.1.2 255.255.255.0\n duplex auto\n speed auto\n!\ninterface Serial1/0\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/1\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/2\n no ip address\n shutdown\n serial restart-delay 0\n!\ninterface Serial1/3\n no ip address\n shutdown\n serial restart-delay 0\n!\nrouter bgp 300\n no synchronization\n bgp log-neighbor-changes\n neighbor 10.10.1.1 remote-as 500\n no auto-summary\n!\n!\nno ip http server\nno ip http secure-server\n!\n!\nno cdp log mismatch duplex\n!\n!\n!\n!\ncontrol-plane\n!\n!\n!\n!\n!\n!\ngatekeeper\n shutdown\n!\n!\nline con 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline aux 0\n exec-timeout 0 0\n privilege level 15\n logging synchronous\n stopbits 1\nline vty 0 4\n login\n!\n!\nend\n",
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "width": 66,
+                "x": 587,
+                "y": -224,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "2.0.3"
+}

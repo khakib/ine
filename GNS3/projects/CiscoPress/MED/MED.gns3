@@ -1,0 +1,83 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "name": "MED",
+    "project_id": "91410573-d41d-44cb-82bc-c741f040710b",
+    "revision": 7,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "27b3f3d7-1eee-4463-aa2a-0a8fbd603841",
+                "rotation": 0,
+                "svg": "<svg height=\"353\" width=\"500\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"353\" stroke=\"#000000\" stroke-width=\"2\" width=\"500\" /></svg>",
+                "x": -581,
+                "y": -176,
+                "z": 0
+            },
+            {
+                "drawing_id": "ddc2f5ad-b056-423c-95b2-e9e84bc68f43",
+                "rotation": 0,
+                "svg": "<svg height=\"32\" width=\"100\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">172.17.0.0/16\n192.168.100.0/24</text></svg>",
+                "x": -556,
+                "y": 15,
+                "z": 1
+            },
+            {
+                "drawing_id": "5be1e355-76ca-412f-b7d0-9a45da273e3d",
+                "rotation": 0,
+                "svg": "<svg height=\"353\" width=\"381\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"353\" stroke=\"#000000\" stroke-width=\"2\" width=\"381\" /></svg>",
+                "x": 68,
+                "y": -180,
+                "z": 0
+            },
+            {
+                "drawing_id": "9e842b43-c10a-40b9-ab07-8caaa964244a",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"57\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">AS 64900</text></svg>",
+                "x": 240,
+                "y": -161,
+                "z": 1
+            },
+            {
+                "drawing_id": "f9ff684f-a316-48a7-9896-b7d886b361e4",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"67\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.1.1.0/24</text></svg>",
+                "x": -54,
+                "y": -83,
+                "z": 1
+            },
+            {
+                "drawing_id": "52968c98-786a-4d04-afa5-dbb36171d155",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"57\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">AS 65501</text></svg>",
+                "x": -148,
+                "y": -161,
+                "z": 1
+            },
+            {
+                "drawing_id": "66a76a9a-8a03-4528-bc03-6bf56a1abc63",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"67\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.2.0/24</text></svg>",
+                "x": -54,
+                "y": 101,
+                "z": 1
+            },
+            {
+                "drawing_id": "ab55a715-8c74-49e1-b0cc-fa8034e06389",
+                "rotation": 0,
+                "svg": "<svg height=\"68\" width=\"394\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">Multi_Exit_Disc\nAdvertise MED to neighboring ASs to influence incoming route preferences\nMED influences only directly neighboring ASs\n- Neighboring AS does not add the MED to its updates to other EBGP peers\n- Neighboring AS must agree to accept MED</text></svg>",
+                "x": -217,
+                "y": 278,
+                "z": 1
+            }
+        ],
+        "links": [],
+        "nodes": []
+    },
+    "type": "topology",
+    "version": "2.0.3"
+}
